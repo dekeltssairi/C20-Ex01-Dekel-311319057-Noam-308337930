@@ -34,6 +34,7 @@ namespace Ex01.ApplicationUI
             this.f_ListBoxFriends = new System.Windows.Forms.ListBox();
             this.f_PictureBoxProfile = new System.Windows.Forms.PictureBox();
             this.f_ListBoxPosts = new System.Windows.Forms.ListBox();
+            this.f_LabelWait = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.f_PictureBoxProfile)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,21 +74,34 @@ namespace Ex01.ApplicationUI
             this.f_ListBoxPosts.Size = new System.Drawing.Size(709, 148);
             this.f_ListBoxPosts.TabIndex = 2;
             this.f_ListBoxPosts.UseWaitCursor = true;
-            this.f_ListBoxPosts.SelectedIndexChanged += new System.EventHandler(this.f_PostListBox_SelectedIndexChanged);
+            // 
+            // f_LabelWait
+            // 
+            this.f_LabelWait.AutoSize = true;
+            this.f_LabelWait.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.f_LabelWait.Location = new System.Drawing.Point(282, 33);
+            this.f_LabelWait.Name = "f_LabelWait";
+            this.f_LabelWait.Size = new System.Drawing.Size(188, 32);
+            this.f_LabelWait.TabIndex = 3;
+            this.f_LabelWait.Text = "Loading.......";
+            this.f_LabelWait.Visible = false;
             // 
             // FormFriendList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.f_LabelWait);
             this.Controls.Add(this.f_ListBoxPosts);
             this.Controls.Add(this.f_PictureBoxProfile);
             this.Controls.Add(this.f_ListBoxFriends);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormFriendList";
             this.Text = "Friends List";
             ((System.ComponentModel.ISupportInitialize)(this.f_PictureBoxProfile)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -96,5 +110,6 @@ namespace Ex01.ApplicationUI
         private System.Windows.Forms.ListBox f_ListBoxFriends;
         private System.Windows.Forms.PictureBox f_PictureBoxProfile;
         private System.Windows.Forms.ListBox f_ListBoxPosts;
+        private System.Windows.Forms.Label f_LabelWait;
     }
 }

@@ -153,15 +153,10 @@ namespace Ex01.ApplicationUI
             }
             else
             {
-                new Thread(onFriendListThread).Start();
+                new FormFriendList(r_FBConnector.LoggedUser.Friends).ShowDialog();
             }
 
             f_LabelPleaseWait.Visible = false;
-        }
-
-        private void onFriendListThread()
-        {
-            new FormFriendList(r_FBConnector.LoggedUser.Friends).ShowDialog();
         }
 
         private void f_CheckinsButton_Click(object sender, EventArgs e)

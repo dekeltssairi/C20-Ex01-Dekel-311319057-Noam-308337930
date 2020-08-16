@@ -9,6 +9,7 @@ namespace Ex01.ApplicationUI
         {
             InitializeComponent();
             f_ListBoxCheckins.Items.Clear();
+
             foreach (Checkin checkin in i_Checkins)
             {
                 f_ListBoxCheckins.Items.Add(checkin.Place.Name);

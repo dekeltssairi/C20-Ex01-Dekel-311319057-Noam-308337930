@@ -137,7 +137,7 @@
             // f_ButtonMyAlbums
             // 
             this.f_ButtonMyAlbums.Enabled = false;
-            this.f_ButtonMyAlbums.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f_ButtonMyAlbums.ForeColor = System.Drawing.SystemColors.ControlText;
             this.f_ButtonMyAlbums.Location = new System.Drawing.Point(196, 171);
             this.f_ButtonMyAlbums.Name = "f_ButtonMyAlbums";
             this.f_ButtonMyAlbums.Size = new System.Drawing.Size(100, 23);
@@ -228,6 +228,7 @@
             // f_ButtonShowMyEvents
             // 
             this.f_ButtonShowMyEvents.Enabled = false;
+            this.f_ButtonShowMyEvents.ForeColor = System.Drawing.SystemColors.ControlText;
             this.f_ButtonShowMyEvents.Location = new System.Drawing.Point(277, 448);
             this.f_ButtonShowMyEvents.Name = "f_ButtonShowMyEvents";
             this.f_ButtonShowMyEvents.Size = new System.Drawing.Size(253, 23);
@@ -239,6 +240,7 @@
             // f_ButtonShowLikes
             // 
             this.f_ButtonShowLikes.Enabled = false;
+            this.f_ButtonShowLikes.ForeColor = System.Drawing.SystemColors.ControlText;
             this.f_ButtonShowLikes.Location = new System.Drawing.Point(835, 377);
             this.f_ButtonShowLikes.Name = "f_ButtonShowLikes";
             this.f_ButtonShowLikes.Size = new System.Drawing.Size(196, 23);
@@ -250,6 +252,7 @@
             // f_ButtonShowMyPosts
             // 
             this.f_ButtonShowMyPosts.Enabled = false;
+            this.f_ButtonShowMyPosts.ForeColor = System.Drawing.SystemColors.ControlText;
             this.f_ButtonShowMyPosts.Location = new System.Drawing.Point(21, 448);
             this.f_ButtonShowMyPosts.Name = "f_ButtonShowMyPosts";
             this.f_ButtonShowMyPosts.Size = new System.Drawing.Size(253, 23);
@@ -318,6 +321,7 @@
             // f_ButtonShowMostDiggingFriend
             // 
             this.f_ButtonShowMostDiggingFriend.Enabled = false;
+            this.f_ButtonShowMostDiggingFriend.ForeColor = System.Drawing.SystemColors.ControlText;
             this.f_ButtonShowMostDiggingFriend.Location = new System.Drawing.Point(562, 547);
             this.f_ButtonShowMostDiggingFriend.Name = "f_ButtonShowMostDiggingFriend";
             this.f_ButtonShowMostDiggingFriend.Size = new System.Drawing.Size(196, 36);
@@ -329,6 +333,7 @@
             // f_ButtonLogout
             // 
             this.f_ButtonLogout.Enabled = false;
+            this.f_ButtonLogout.ForeColor = System.Drawing.SystemColors.ControlText;
             this.f_ButtonLogout.Location = new System.Drawing.Point(888, 12);
             this.f_ButtonLogout.Name = "f_ButtonLogout";
             this.f_ButtonLogout.Size = new System.Drawing.Size(102, 35);
@@ -340,6 +345,7 @@
             // f_ButtonCovid19
             // 
             this.f_ButtonCovid19.Enabled = false;
+            this.f_ButtonCovid19.ForeColor = System.Drawing.SystemColors.ControlText;
             this.f_ButtonCovid19.Location = new System.Drawing.Point(562, 630);
             this.f_ButtonCovid19.Name = "f_ButtonCovid19";
             this.f_ButtonCovid19.Size = new System.Drawing.Size(196, 34);
@@ -352,6 +358,7 @@
             // 
             this.f_ButtonShowChekins.CausesValidation = false;
             this.f_ButtonShowChekins.Enabled = false;
+            this.f_ButtonShowChekins.ForeColor = System.Drawing.SystemColors.ControlText;
             this.f_ButtonShowChekins.Location = new System.Drawing.Point(835, 310);
             this.f_ButtonShowChekins.Name = "f_ButtonShowChekins";
             this.f_ButtonShowChekins.Size = new System.Drawing.Size(196, 23);
@@ -363,7 +370,7 @@
             // f_ButtonShowFriends
             // 
             this.f_ButtonShowFriends.Enabled = false;
-            this.f_ButtonShowFriends.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f_ButtonShowFriends.ForeColor = System.Drawing.SystemColors.ControlText;
             this.f_ButtonShowFriends.Location = new System.Drawing.Point(835, 240);
             this.f_ButtonShowFriends.Name = "f_ButtonShowFriends";
             this.f_ButtonShowFriends.Size = new System.Drawing.Size(196, 23);
@@ -375,6 +382,7 @@
             // f_ButtonPost
             // 
             this.f_ButtonPost.Enabled = false;
+            this.f_ButtonPost.ForeColor = System.Drawing.SystemColors.ControlText;
             this.f_ButtonPost.Location = new System.Drawing.Point(455, 412);
             this.f_ButtonPost.Name = "f_ButtonPost";
             this.f_ButtonPost.Size = new System.Drawing.Size(75, 23);
@@ -400,6 +408,7 @@
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wellcom to our Facebook App";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
